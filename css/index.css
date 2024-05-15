@@ -1,0 +1,117 @@
+body {
+    background-color: grey;
+}
+
+
+/*jumbotron*/ 
+#hero {
+    background-image: url("../images/hero.png");
+    height: 848px;
+}
+
+.navbar {
+    background-color: transparent !important;
+    position: fixed;
+    width: 100%;
+    background-size: cover;
+    z-index: 10;
+    margin-left: auto;
+  margin-right: 0 !important;
+}
+
+.navbar-brand img{
+    padding-left: 15px;
+    width: 100px;
+}
+
+li .nav-link{
+    margin: 0px 15px;
+    color: white;
+  }
+
+  .nav-link.active {
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:60%;
+}
+
+.jumbotron p {
+    text-align: center;
+    color: white;
+
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: 600;
+
+}
+
+.jumbotron span {
+    font-weight: 200;
+}
+
+/* destination cards */
+
+
+#adventure {
+
+    margin-top: 25px;
+    margin-bottom: 200px;
+}
+
+#adventure h1 {
+ text-align:center;
+ font-size:38px;
+ margin-bottom:100px;
+ color: black;
+
+}
+
+
+#adventure .cardContainer {
+height:565px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom:20px;
+}
+
+
+
+.cardContainer .card-img-overlay {
+    margin-left:40px;
+    margin-right:60px;
+    color:rgb(255, 255, 255);
+    align-content: center !important;
+    justify-content: center !important;
+
+}
+
+.btn-primary {
+    background-color:#ff9900 !important;
+    border-color: #ff9900 !important;
+    border-radius: 0 !important;
+}
+
+.btn-primary:hover {
+    background-color:#c47703 !important;
+    border-color: #c47703 !important;
+}
+
+.cardContainer .card-img-overlay .card-icon {
+    width:75%;
+    padding: 5%;
+
+}
+
+.card  .col-lg-4 .col-md-4 .col-sm-12 {
+    border-color: none;
+    box-shadow: 0;
+}
